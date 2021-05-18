@@ -29,7 +29,7 @@
 
             <div class="text-sm mt-2">
                 <p>
-                    {{ $post->excerpt }}
+                    {!! $post->excerpt !!}
                 </p>
             </div>
             <footer class="flex justify-between items-center mt-8">
